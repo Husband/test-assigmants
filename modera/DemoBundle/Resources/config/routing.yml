@@ -1,0 +1,6 @@
+modera_demo_homepage:
+    path:     /demo/
+    defaults: { _controller: ModeraDemoBundle:Default:index }
+modera_tree:
+    path:     /tree/{filename}
+    defaults: { _controller: ModeraDemoBundle:Default:tree }
